@@ -1,25 +1,15 @@
-import React from 'react';
+import React from "react";
 
-function Features() {
+export default function Features() {
   return (
     <section className="features">
-      <h2>How It Works</h2>
-      <div className="feature-grid">
-        <div className="feature">
-          <div className="placeholder-img"></div>
-          <p>Upload your room photo</p>
-        </div>
-        <div className="feature">
-          <div className="placeholder-img"></div>
-          <p>Pick a theme</p>
-        </div>
-        <div className="feature">
-          <div className="placeholder-img"></div>
-          <p>Get AI suggestions</p>
-        </div>
-      </div>
+      <h2>Why Choose RoomItt?</h2>
+      <ul>
+        <li>Instant AI Design Previews</li>
+        <li>Custom Style Matching</li>
+        <li>Easy to Use, No Login Required</li>
+      </ul>
     </section>
   );
 }
 
-export default Features;

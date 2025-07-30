@@ -1,13 +1,11 @@
-import React from 'react';
+import React from "react";
 
-function Hero() {
+export default function Hero() {
   return (
     <section className="hero">
       <h1>Transform Your Room with AI</h1>
-      <p>Your personalized interior design assistant, now smarter than ever.</p>
-      <button>Get Started</button>
+      <p>Get aesthetic interior design recommendations instantly</p>
     </section>
   );
 }
 
-export default Hero;
